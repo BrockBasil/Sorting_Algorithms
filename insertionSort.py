@@ -7,11 +7,8 @@ def insertionSort(array):
 	while i < len(array): 
 		holder = array[i] 
 
-		# Move elements of arr[0..i-1], that are 
-		# greater than key, to one position ahead 
-		# of their current position 
 		j = i - 1
-		while j >=0 and holder < array[j] : 
+		while j >= 0 and holder < array[j] : 
 				array[j + 1] = array[j] 
 				j = j - 1
 		array[j + 1] = holder
@@ -26,7 +23,6 @@ def main():
 	f.close()
 
 	insertionSort(array)
-	print (array)
 
 #Executes main function
 if __name__ == "__main__":

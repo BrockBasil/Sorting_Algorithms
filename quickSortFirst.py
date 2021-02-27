@@ -45,7 +45,6 @@ def main():
 	f.close()
 
 	quick_sort(array, 0, len(array) - 1)
-	print(array)
 
 #Executes main function
 if __name__ == "__main__":
