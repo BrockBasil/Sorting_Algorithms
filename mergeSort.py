@@ -40,7 +40,6 @@ def main():
 	f.close()
 
 	merge_sort(array)
-	print(array)
 
 #Executes main function
 if __name__ == "__main__":
